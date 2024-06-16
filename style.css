@@ -1,0 +1,39 @@
+/* styles.css */
+* {
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+#dino {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+img{
+    border: 100px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+    align-items: end;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#dino:hover {
+    transform: scale(1.1);
+}
